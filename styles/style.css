@@ -3,93 +3,184 @@ body {
     padding: 0px;
 }
 
-.header {
+.boss {
     background-color: aqua;
 }
 
-.nav-icon {
-    display: flex;
-    padding-left: 240px;
+.navbar {
+    padding: 100px 240px;
+    margin-bottom: 200px;
+    list-style: none;
+
 }
 
-.box-2 {
-    padding: 10px 122px 10px 10px;
-    color: #3C354F;
+.list-item li {
+    list-style: none;
+
+}
+
+.list-item a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 40px 240px;
+}
+
+.outside-logo {
+    padding: 4px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
 
-.list-item {
+.outside-logo img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5PX;
+    justify-content: center;
+    padding-left: 9px;
+}
+
+/* section 3 part start---------------- */
+.main-part {
+    display: flex;
+}
+
+.title {
+
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: 300px;
+
+}
+
+.pera {
+    text-align: center;
+}
+/* section 2 start */
+
+.card-title{
+   text-align: center;
+   font-size: 40px;
+}
+.card-para{
+    text-align: center;
+}
+.card-img img{
+    width: 340px;
+    height: 400px;
+}
+
+/* section 3  */
+.img-hat{
+    position: relative;
+}
+
+.img-hat .img1 {
+    width: 550.833px;
+    height: 550px;
+    margin-right: 150px;
+    margin-top: 120px;
+}
+
+.img-hat .img2{
+    width: 315px;
+    height: 360px;
+
+}
+/* section 4 part start---------------- */
+
+.more-icon img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.more-icon2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.more-icon,
+.more-icon2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 100px 0px 100px;
+}
+
+.more-icon2 {
+    margin: 0px 150px 147px 150px;
+    padding-top: 50px;
+}
+
+.ratio {
+    border-radius: 50px;
+    border: 1px solid #FF42A5;
+    display: flex;
+}
+
+.ratio img {
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+
+/* section 4 part end-------------------- */
+/* footer start   ---------------------- */
+
+footer {
+    background-color: black;
+    height: 100vh;
+}
+
+.first1 {
+    color: #fff;
+    margin: 10px 0px 10px 0px;
     display: flex;
     justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
 }
 
-/* banner section */
-
-.banner-section {
-    text-align: left;
-    font-family: Work Sans;
-    font-size: 30px;
-    font-weight: 800;
-    text-transform: uppercase;
-    padding: 0px;
-    margin: 0px;
-    margin: 40px 530px 100px 240px;
-
+.first1 img {
+    margin-top: 24px;
+    height: 20px;
+    width: 40px;
 }
 
-.font-color {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-top: -100px;
+.second1,
+.fourth1 {
+    color: #fff;
+    margin: 40px 0px 20px 250px;
+}
+
+.second1 ul,
+.fourth1 ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.third1 {
+    margin-left: 430px;
+}
+
+.third1 img {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
 }
 
 .paragraph {
-    font-size: small;
-    margin-bottom: 30px;
-}
-
-.btn1 {
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: #FFF;
-    border-color: #FFF;
-    background-color: #FF42A5;
-}
-
-.btn2 {
-    padding: 10px 20px;
-    border-radius: 20px;
-    color: #FFF;
-    background-color: #4EC5F7;
-    border-color: #fff;
-}
-
-.img-section {
-    width: 450px;
-}
-
-.video-section-title {
-    color: #0B0223;
+    color: #fff;
     text-align: center;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-weight: 700;
+    padding-top: 50px;
 }
 
-.font {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.video-section .para2{
-    text-align: center;
-    margin-top: -30px;
-}
-.main-img{
-    display: flex;
-    justify-content: center;
-}
+/* footer end */
