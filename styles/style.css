@@ -6,7 +6,6 @@ body {
 .boss{
     display: flex;
     justify-content: space-between;
-    background-color: cornflowerblue;
 }
 
 .game-container{
@@ -43,8 +42,6 @@ body {
     gap: 24px;
 }
 .nav-img{
-    background: rgba(0, 0, 0, 0.311);
-    padding: 10px 0px 0px 0px;
     margin-bottom: px;
 }
 .nav-img .nav-img-img {
