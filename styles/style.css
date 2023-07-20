@@ -3,42 +3,56 @@ body {
     padding: 0px;
 }
 
-.boss {
-    background-color: aqua;
+.boss{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
 }
 
-.navbar {
-    padding: 100px 240px;
-    margin-bottom: 200px;
-    list-style: none;
-
+.game-container{
+    display: flex;
 }
 
-.list-item li {
-    list-style: none;
-
+.game-text{
+    margin-top: 27px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: 700;
 }
 
-.list-item a {
+.game-img{
+    width: 50px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.item-list li a{
     text-decoration: none;
+    color: #000000d6;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.logo {
-    padding: 40px 240px;
+.item-list {
+    list-style: none;
+    display: flex;
+    margin-right: 150px;
+    padding-left: -40px;
+    margin-top: 40px;
+    gap: 24px;
 }
-
-.outside-logo {
-    padding: 4px;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
+.nav-img img {
+    width: 24px;
+    height: 24px;
 }
-
-.outside-logo img {
-    width: 20px;
-    height: 20px;
-    margin-bottom: -5PX;
+.second-nav{
+    display: flex;
     justify-content: center;
-    padding-left: 9px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /*  */
@@ -62,23 +76,24 @@ body {
 }
 
 .btn1 {
-    padding: 5px 20px;
-    align-items: flex-start;
+    padding: 10px 20px;
+    font-size: 15px;
     gap: 10px;
     border-radius: 48px;
     color: #fff;
     background-color: #FF42A5;
-    
+    border: none;
 }
 
 .btn2 {
-    padding: 5px 20px;
-    align-items: flex-start;
+    padding: 10px 20px;
+    font-size: 15px;
     gap: 10px;
     border-radius: 48px;
     color: #fff;
     background-color: #4EC5F7;
     margin-left: 10px;
+    border: none;
 }
 
 .header-img-img img{
@@ -232,7 +247,6 @@ footer {
     height: 20px;
     text-align: center;
     padding: 20px;
-    background-color: #fff;
 }
 
 .paragraph {
