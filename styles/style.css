@@ -42,17 +42,33 @@ body {
     margin-top: 40px;
     gap: 24px;
 }
+.nav-img{
+    background: rgba(0, 0, 0, 0.311);
+    padding: 10px 0px 0px 0px;
+    margin-bottom: px;
+}
+.nav-img .nav-img-img {
+    margin-left: 15px;
+    gap: 5px;
+}
 .nav-img img {
     width: 24px;
     height: 24px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    padding-right: 0px;
 }
 .second-nav{
-    display: flex;
-    justify-content: center;
     background: rgba(11, 2, 35, 0.10);
     margin-right: 20px;
     padding: 10px;
     border-radius: 8px;
+}
+.second-nav img{
+    margin-left: 10px;
+}
+.nav-img li {
+    display: flex;
 }
 
 /*  */
@@ -160,7 +176,6 @@ body {
 .img-hat .img2 {
     width: 315px;
     height: 360px;
-
 }
 
 /* section 4 part start---------------- */
